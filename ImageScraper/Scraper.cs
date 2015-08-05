@@ -36,6 +36,8 @@ namespace ImageScraper
             string url = txtUrl.Text.Trim();
 
             _scrapePresenter.ScrapeImages(url, _destinationFolder);
+
+            MessageBox.Show("Image scrub completed.");
         }
 
         public void DisplayErrorMessage(string message)

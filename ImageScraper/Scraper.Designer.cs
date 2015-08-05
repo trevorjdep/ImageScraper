@@ -62,6 +62,7 @@
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(304, 20);
             this.txtUrl.TabIndex = 2;
+            this.txtUrl.Text = "http://";
             // 
             // txtDestination
             // 

@@ -12,7 +12,7 @@ namespace UnitTests
     public class ImageScraperTests
     {
         private readonly string url = "http://cleanmyrivers.org/";
-        private readonly string destination = @"C:\Users\Trevo\Downloads";
+        private readonly string destination = @"C:\Users\trevor.depender\Downloads";
 
         private IScraper _view;
         private ImageScraperPresenter _presenter;

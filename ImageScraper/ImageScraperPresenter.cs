@@ -169,7 +169,8 @@ namespace ImageScraper
             {
                 if (!imageSources[i].Contains("http"))
                 {
-                    imageSources[i] = url + imageSources[i];
+                    //Add '/' after the url because while it won't mind if there are two, it will if there are none
+                    imageSources[i] = url + '/' + imageSources[i];
                 }
             }
         }
